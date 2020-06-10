@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Playfair+Display&display=swap');
+
+* {
+  font-family: 'Montserrat';
+}
+
+html {
+  font-size: 0.85rem;
+}
+
+a{
+  color: #3193c4;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #3193c4;
+}
+
+
+#nome-titulo {
+  font-weight: bold;
+  /* text-shadow: #ddd 1px 1px 3px; */
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 1.1rem;
+  color: #237653;
+  font-weight: bold;
+}
+
+#nome-titulo,
+h2 {
+  font-family: 'Playfair Display';
+  color: #237653;
+  font-weight: bold;
+}
+
+#nome-titulo {
+  font-size: 2.5rem;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: #237653;
+  color: #fff;
+  font-weight: lighter;
+  border-radius: 4px;
+  text-shadow: none;
+}
+
+#photo-portrait{
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  border-radius: 200px;
+}
+
+#professor-info a .si{
+  color: #3193c4;
+}
+
+.more-disciplines{
+  background-color: #3193c4;
+  color: #fff;
+  border: #3193c4;
+  border: solid 0.1rem #3193c4;
+}
+
+.more-disciplines:hover{
+  background-color: #fff;
+  color: #3193c4;
+  border: solid 0.1rem #3193c4;
+}
